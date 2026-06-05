@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RankMind AI Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1>RankMind AI</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+  </nav>
+</header>
+
+<div class="dashboard">
+
+  <h2>SEO Article Generator</h2>
+
+  <input id="topic" placeholder="Enter your blog topic">
+  <input id="keyword" placeholder="Main keyword">
+
+  <select id="tone">
+    <option>Professional</option>
+    <option>Friendly</option>
+    <option>SEO Optimized</option>
+  </select>
+
+  <select id="length">
+    <option>Short</option>
+    <option>Medium</option>
+    <option>Long</option>
+  </select>
+
+  <button onclick="generate()">Generate SEO Article</button>
+
+  <div id="output"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+    </html>
