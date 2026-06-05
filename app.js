@@ -43,4 +43,5 @@ can significantly improve performance.
 In conclusion, learning and implementing ${topic} effectively can provide a strong
 competitive advantage in 2026 and beyond.
 </p>
-  
+ `;
+} 
