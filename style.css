@@ -61,7 +61,35 @@ body{
   cursor:pointer;
   transition:0.3s;
 }
+.dashboard{
+  max-width:800px;
+  margin:50px auto;
+  padding:20px;
+  text-align:center;
+}
 
-.hero button:hover{
-  background:#7d3fff;
+.dashboard input,
+.dashboard select{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border:none;
+  border-radius:8px;
+}
+
+.dashboard button{
+  padding:12px 25px;
+  background:#9b5cff;
+  border:none;
+  color:white;
+  cursor:pointer;
+  border-radius:8px;
+}
+
+#output{
+  margin-top:30px;
+  text-align:left;
+  background:#1a1a2e;
+  padding:20px;
+  border-radius:10px;
 }
